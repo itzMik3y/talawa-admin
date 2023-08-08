@@ -33,6 +33,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "flag-icons": "^6.6.6",
     "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.6",
     "i18next": "^21.8.14",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.1",
@@ -54,6 +55,7 @@
     "redux-thunk": "^2.3.0",
     "typescript": "^4.3.5",
     "web-vitals": "^1.0.1",
+    "xlsx": "^0.18.5",
     "yarn": "^1.22.17"
   },
   "scripts": {

@@ -111,7 +111,8 @@
     "spamsThe": "垃圾郵件",
     "group": "團體",
     "noNotifications": "沒有通知",
-    "close": "關"
+    "close": "關",
+    "Export": "निर्यात"
   },
   "dashboard": {
     "title": "塔拉瓦儀表板",
@@ -129,7 +130,8 @@
     "deleteMsg": "您要刪除此組織嗎？",
     "no": "不",
     "yes": "是的",
-    "talawaApiUnavailable": "服務不可用。它在運行嗎？還要檢查您的網絡連接。"
+    "talawaApiUnavailable": "服務不可用。它在運行嗎？還要檢查您的網絡連接。",
+    "export": "出口"
   },
   "organizationPeople": {
     "title": "塔拉瓦成員",
@@ -500,5 +502,26 @@
     "yourOrganizations": "您的組織",
     "noOrganizations": "您還沒有加入任何組織。",
     "viewAll": "查看全部"
+  },
+  "exportPage": {
+    "export": "导出",
+    "addToList": "添加到列表",
+    "title": "塔拉瓦封鎖/解除封鎖用戶",
+    "searchByName": "按名稱搜索",
+    "listOfUsers": "發送垃圾郵件的用戶列表",
+    "name": "姓名",
+    "email": "電子郵件",
+    "block_unblock": "阻止/解除阻止",
+    "unblock": "解除封鎖",
+    "block": "堵塞",
+    "orgName": "輸入名字",
+    "blockedSuccessfully": "用戶被成功阻止",
+    "Un-BlockedSuccessfully": "用戶解封成功",
+    "talawaApiUnavailable": "服務不可用。它在運行嗎？還要檢查您的網絡連接。",
+    "allMembers": "所有成员",
+    "blockedUsers": "被阻止的用户",
+    "searchFirstName": "输入名字",
+    "searchLastName": "输入姓氏",
+    "searchEmail": "输入电子邮件"
   }
 }

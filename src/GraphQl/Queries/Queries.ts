@@ -190,6 +190,7 @@ export const ORGANIZATIONS_MEMBER_CONNECTION_LIST = gql`
     $orgId: ID!
     $firstName_contains: String
     $lastName_contains: String
+    # $email_contains: EmailAddress
     $admin_for: ID
     $event_title_contains: String
   ) {
@@ -200,6 +201,7 @@ export const ORGANIZATIONS_MEMBER_CONNECTION_LIST = gql`
         lastName_contains: $lastName_contains
         admin_for: $admin_for
         event_title_contains: $event_title_contains
+        # email_contains: $email_contains
       }
     ) {
       edges {

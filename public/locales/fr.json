@@ -111,7 +111,8 @@
     "spamsThe": "spam le",
     "group": "groupe",
     "noNotifications": "Aucune notification",
-    "close": "Proche"
+    "close": "Proche",
+    "Export": "Exporter"
   },
   "dashboard": {
     "title": "Tableau de bord Talawa",
@@ -129,7 +130,8 @@
     "deleteMsg": "Voulez-vous supprimer cette organisation ?",
     "no": "Non",
     "yes": "Oui",
-    "talawaApiUnavailable": "Le service Talawa-API n'est pas disponible. Est-il en cours d'exécution ? Vérifiez également votre connectivité réseau."
+    "talawaApiUnavailable": "Le service Talawa-API n'est pas disponible. Est-il en cours d'exécution ? Vérifiez également votre connectivité réseau.",
+    "export": "Exporter"
   },
   "organizationPeople": {
     "title": "Membres Talawa",
@@ -498,5 +500,26 @@
     "yourOrganizations": "Vos organisations",
     "noOrganizations": "Vous n'avez encore rejoint aucune organisation.",
     "viewAll": "Voir tout"
+  },
+  "exportPage": {
+    "export": "Exporter",
+    "addToList": "Ajouter à la liste",
+    "title": "Talawa Bloquer/Débloquer l'utilisateur",
+    "searchByName": "Recherche par nom",
+    "listOfUsers": "Liste des utilisateurs qui ont spammé",
+    "name": "Nom",
+    "email": "E-mail",
+    "block_unblock": "Bloquer/Débloquer",
+    "unblock": "Débloquer",
+    "block": "Bloquer",
+    "orgName": "Entrez le nom",
+    "blockedSuccessfully": "Utilisateur bloqué avec succès",
+    "Un-BlockedSuccessfully": "Utilisateur débloqué avec succès",
+    "talawaApiUnavailable": "Le service Talawa-API n'est pas disponible. Est-il en cours d'exécution ? Vérifiez également votre connectivité réseau.",
+    "allMembers": "Tous les membres",
+    "blockedUsers": "Utilisateurs bloqués",
+    "searchFirstName": "Entrez votre prénom",
+    "searchLastName": "Entrer le nom de famille",
+    "searchEmail": "Entrez l'e-mail"
   }
 }

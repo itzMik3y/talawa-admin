@@ -51,6 +51,7 @@ const components = [
   // },
   { name: 'Posts', comp_id: 'orgpost', component: 'OrgPost' },
   { name: 'Block/Unblock', comp_id: 'blockuser', component: 'BlockUser' },
+  { name: 'Export', comp_id: 'export', component: 'ExportPage' },
   {
     name: 'Plugins',
     comp_id: null,

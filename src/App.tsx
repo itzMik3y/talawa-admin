@@ -26,6 +26,7 @@ import MemberDetail from 'screens/MemberDetail/MemberDetail';
 // User Portal Components
 import UserLoginPage from 'screens/UserPortal/UserLoginPage/UserLoginPage';
 import Organizations from 'screens/UserPortal/Organizations/Organizations';
+import ExportPage from 'screens/ExportPage/ExportPage';
 
 function app(): JSX.Element {
   /*const { updatePluginLinks, updateInstalled } = bindActionCreators(
@@ -101,9 +102,9 @@ function app(): JSX.Element {
         <SecuredRoute path="/roles" component={Roles} />
         <SecuredRoute path="/requests" component={Requests} />
         <SecuredRoute path="/blockuser" component={BlockUser} />
+        <SecuredRoute path="/export" component={ExportPage} />
         {extraRoutes}
         <Route exact path="/forgotPassword" component={ForgotPassword} />
-
         {/* User Portal Routes */}
         <Route exact path="/user" component={UserLoginPage} />
         <SecuredRouteForUser

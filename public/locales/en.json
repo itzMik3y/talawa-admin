@@ -115,7 +115,8 @@
     "spamsThe": "spams the",
     "group": "group",
     "noNotifications": "No Notifications",
-    "close": "Close"
+    "close": "Close",
+    "Export": "Export"
   },
   "dashboard": {
     "title": "Talawa Dashboard",
@@ -133,7 +134,8 @@
     "deleteMsg": "Do you want to delete this organization?",
     "no": "No",
     "yes": "Yes",
-    "talawaApiUnavailable": "Talawa-API service is unavailable. Is it running? Check your network connectivity too."
+    "talawaApiUnavailable": "Talawa-API service is unavailable. Is it running? Check your network connectivity too.",
+    "export": "Export"
   },
   "organizationPeople": {
     "title": "Talawa Members",
@@ -504,5 +506,26 @@
     "yourOrganizations": "Your Organizations",
     "noOrganizations": "You haven't joined any organization yet.",
     "viewAll": "View all"
+  },
+  "exportPage": {
+    "export": "Export",
+    "addToList": "Add to list",
+    "title": "Talawa Block/Unblock User",
+    "searchByName": "Search By Name",
+    "listOfUsers": "List of Users who spammed",
+    "name": "Name",
+    "email": "Email",
+    "block_unblock": "Block/Unblock",
+    "unblock": "UnBlock",
+    "block": "Block",
+    "orgName": "Enter Name",
+    "blockedSuccessfully": "User blocked successfully",
+    "Un-BlockedSuccessfully": "User Un-Blocked successfully",
+    "talawaApiUnavailable": "Talawa-API service is unavailable. Is it running? Check your network connectivity too.",
+    "allMembers": "All Members",
+    "blockedUsers": "Blocked Users",
+    "searchFirstName": "Enter First Name",
+    "searchLastName": "Enter Last Name",
+    "searchEmail": "Enter Email"
   }
 }

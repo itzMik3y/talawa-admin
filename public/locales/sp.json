@@ -111,7 +111,8 @@
     "spamsThe": "envía correo no deseado",
     "group": "grupo",
     "noNotifications": "No Notificaciones",
-    "close": "Cerca"
+    "close": "Cerca",
+    "Export": "निर्यात"
   },
   "dashboard": {
     "title": "Panel de Talawa",
@@ -129,7 +130,8 @@
     "deleteMsg": "¿Desea eliminar esta organización?",
     "no": "No",
     "yes": "Sí",
-    "talawaApiUnavailable": "El servicio Talawa-API no está disponible. ¿Está funcionando? Compruebe también la conectividad de su red."
+    "talawaApiUnavailable": "El servicio Talawa-API no está disponible. ¿Está funcionando? Compruebe también la conectividad de su red.",
+    "export": "Exportación"
   },
   "organizationPeople": {
     "title": "Miembros Talawa",
@@ -500,5 +502,26 @@
     "yourOrganizations": "Tus Organizaciones",
     "noOrganizations": "Aún no te has unido a ninguna organización.",
     "viewAll": "Ver todo"
+  },
+  "exportPage": {
+    "export": "Exportar",
+    "addToList": "Añadir a la lista",
+    "title": "Usuario de bloqueo/desbloqueo de Talawa",
+    "searchByName": "Buscar por nombre",
+    "listOfUsers": "Lista de Usuarios que enviaron spam",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "block_unblock": "Bloquear/Desbloquear",
+    "unblock": "Desatascar",
+    "block": "Bloquear",
+    "orgName": "Ingrese su nombre",
+    "blockedSuccessfully": "Usuario bloqueado con éxito",
+    "Un-BlockedSuccessfully": "Usuario desbloqueado con éxito",
+    "talawaApiUnavailable": "El servicio Talawa-API no está disponible. ¿Está funcionando? Compruebe también la conectividad de su red.",
+    "allMembers": "Todos los miembros",
+    "blockedUsers": "Usuarios bloqueados",
+    "searchFirstName": "Ingrese el nombre",
+    "searchLastName": "Introduzca el apellido",
+    "searchEmail": "Ingrese correo electrónico"
   }
 }

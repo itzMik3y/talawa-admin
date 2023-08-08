@@ -292,6 +292,50 @@ function organizationDashboard(): JSX.Element {
                     </div>
                   </div>
                 </Col>
+                <Col sm={4} className="mb-5">
+                  <Link
+                    className={`card ${styles.cardContainer}`}
+                    to={`${targets
+                      .filter((target: any) => {
+                        const { name } = target;
+                        return name == 'Export';
+                      })
+                      .map((target: any) => {
+                        return target.url;
+                      })}`}
+                  >
+                    <div className="card-body">
+                      <div className="text-center mb-3">
+                        <i
+                          className={`fas fa-file-export ${styles.dashboardIcon}`}
+                        ></i>
+                      </div>
+                      <div className="text-center">
+                        <p className={styles.counterNumber}>
+                          {data?.organizations[0].blockedUsers.length}
+                        </p>
+                        <p className={styles.counterHead}>{t('export')}</p>
+                      </div>
+                    </div>
+                  </Link>
+                </Col>
+                {/* <Col sm={4} className="mb-5">
+                  <div className={`card ${styles.cardContainer}`}>
+                    <div className="card-body">
+                      <div className="text-center mb-3">
+                        <i
+                          className={`fas fa-users ${styles.dashboardIcon}`}
+                        ></i>
+                      </div>
+                      <div className="text-center">
+                        <p className={styles.counterNumber}>
+                          {data?.organizations[0].membershipRequests.length}
+                        </p>
+                        <p className={styles.counterHead}>{t('export')}</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col> */}
               </Row>
             </div>
           </Container>
