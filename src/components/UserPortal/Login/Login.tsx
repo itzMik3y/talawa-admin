@@ -5,13 +5,13 @@ import { useTranslation } from 'react-i18next';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import { LockOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import { useMutation } from '@apollo/client';
+import { useMutation, useQuery } from '@apollo/client';
 import { toast } from 'react-toastify';
 
 import { LOGIN_MUTATION } from 'GraphQl/Mutations/mutations';
 import styles from './Login.module.css';
 import { errorHandler } from 'utils/errorHandler';
-
+import { PLUGIN_GET } from 'GraphQl/Queries/Queries';
 interface InterfaceLoginProps {
   setCurrentMode: React.Dispatch<SetStateAction<string>>;
 }
@@ -44,10 +44,11 @@ export default function login(props: InterfaceLoginProps): JSX.Element {
           },
         });
 
-        if (data.login.user.adminApproved) {
+        if (data) {
           localStorage.setItem('token', data.login.accessToken);
           localStorage.setItem('userId', data.login.user._id);
-
+          const plugins = useQuery(PLUGIN_GET);
+          console.log(plugins);
           navigator.clipboard.writeText('');
           /* istanbul ignore next */
           window.location.assign('/user/organizations');

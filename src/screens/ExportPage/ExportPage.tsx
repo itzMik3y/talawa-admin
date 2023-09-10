@@ -254,7 +254,7 @@ const ExportPage = (): JSX.Element => {
         <Col sm={8}>
           <div className={styles.mainpageright}>
             <Row className={styles.justifysp}>
-              <p className={styles.logintitle}>{t('listOfUsers')}</p>
+              <p className={styles.logintitle}>List of Users</p>
             </Row>
             {memberLoading ? (
               <div className={styles.loader}>
@@ -288,7 +288,7 @@ const ExportPage = (): JSX.Element => {
                           : membersData
                         ).map((user, index: number) => {
                           return (
-                            <tr key={user._id} className={styles.btn_box}>
+                            <tr key={user._id}>
                               <th scope="row">{page * 10 + (index + 1)}</th>
                               <td>{`${user.firstName} ${user.lastName}`}</td>
                               <td>{user.email}</td>

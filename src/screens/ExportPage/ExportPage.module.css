@@ -8,7 +8,6 @@
   padding-top: 5px;
   margin: 0;
   height: 100%;
-  /* background-color: red; */
 }
 
 .sidebar:after {
@@ -24,7 +23,6 @@
 
 .sidebarsticky {
   padding-left: 45px;
-  /* background-color: red; */
 }
 
 .sidebarsticky > input {
@@ -81,11 +79,12 @@
 }
 
 .radio_buttons {
+  height: 100px;
+  padding-top: 20px;
   color: #707070;
   font-weight: 600;
   font-size: 14px;
-  margin-top: 20px;
-  width: 100%;
+  margin-right: 20px;
   /* background-color: red; */
 }
 .radio_buttons > input {
@@ -105,11 +104,6 @@ select {
   margin-right: auto;
   width: 50%;
 }
-.btn_box {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-}
 .downloadBtn {
   margin-left: auto;
   margin-right: auto;
@@ -126,6 +120,10 @@ select {
   max-width: 30%;
   border: none;
 }
+.btn_box {
+  border: 1px solid black;
+}
+
 @media screen and (max-width: 575.5px) {
   .justifysp {
     padding-left: 55px;

@@ -63,7 +63,6 @@ jobs:
   Graphql-Inspector:
     name: Runs Introspection on the github talawa-api repo on the schema.graphql file
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v3
@@ -76,9 +75,8 @@ jobs:
       - name: resolve dependency
         run: npm install -g @graphql-inspector/cli
 
-      
-      - name: Validate Documents
-        run: graphql-inspector validate './src/GraphQl/**/*.ts' github:PalisadoesFoundation/talawa-api#develop:schema.graphql --token '${{secrets.REPO_READ_ONLY}}'
+      - name: Clone API repository
+        run: git clone https://github.com/PalisadoesFoundation/talawa-api && ls -a
 
-      
-       
+      - name: Validate Documents
+        run: graphql-inspector validate './src/GraphQl/**/*.ts' './talawa-api/schema.graphql'

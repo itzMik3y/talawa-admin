@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.email_controls {
+  display: flex;
+  justify-content: space-around;
+}
+.recipients_box {
+  /* background-color: red; */
+  width: 30%;
+}
+.email_setup {
+  width: 60%;
+  /* border: 1px solid black; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 0px 8px 2px #c8c8c8;
+  border-radius: 8px;
+  /* background-color: red; */
+}
+.email_content_controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  /* background-color: red; */
+}
+.email_content_controls:last-child {
+  border-top-right-radius: 8px;
+}
+.email_content_controls:first-child {
+  border-top-left-radius: 8px;
+}
+.email_content_controls li {
+  /* background-color: black;
+     */
+  width: 50%;
+  height: 5vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+  cursor: pointer;
+}
+.section {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+
+  /* background-color: red; */
+}
+
+.recipiennts_list {
+  width: 100%;
+}
+.loader {
+  text-align: center;
+}
+.list_box {
+  position: relative;
+}
+.pagination_controls {
+  position: absolute;
+  bottom: 0px;
+}
+.active {
+  background-color: #31bb6b;
+  color: white;
+  border-top-left-radius: 8px;
+}
+.subject_box {
+  display: flex;
+  padding-left: 1%;
+}
+.subject_box input {
+  margin-left: 10px;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  height: 2.5rem;
+  background-color: #f2f7ff;
+}
+.date_picker .MuiPickersToolbar-toolbar {
+  background-color: #31bb6b;
+  margin-left: 10px;
+}
+.calender_box {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  height: 95%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.searchtitle {
+  color: #707070;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #31bb6b;
+  width: 60%;
+}
+.sidebarsticky > input {
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-color: #e8e5e5;
+  width: 80%;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: none;
+}
+.sendbtn {
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  height: 95%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 8px;
+  border: 1px solid grey;
+  gap: 3%;
+}
+.recipients_set_up {
+  width: 100%;
+  /* background-color: red; */
+  height: 30%;
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 1.5%;
+}
+.recipients_content {
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid black; */
+  /* background-color: blue; */
+}
+.recipients_label {
+  border: 1px solid grey;
+  height: 90%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+.recipients_list_box {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  gap: 1%;
+  /* background-color: yellow; */
+}
+.recipients_list_box input {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+}

@@ -44,11 +44,11 @@ function addOnRegister({
   const handleRegister = async (): Promise<void> => {
     const { data } = await create({
       variables: {
-        $pluginName: formState.pluginName,
-        $pluginCreatedBy: formState.pluginCreatedBy,
-        $pluginDesc: formState.pluginDesc,
-        $pluginInstallStatus: formState.pluginInstallStatus,
-        $installedOrgs: formState.installedOrgs,
+        pluginName: formState.pluginName,
+        pluginCreatedBy: formState.pluginCreatedBy,
+        pluginDesc: formState.pluginDesc,
+        pluginInstallStatus: formState.pluginInstallStatus,
+        installedOrgs: formState.installedOrgs,
       },
     });
 

@@ -24,7 +24,9 @@
     "fillCorrectly": "Fill all the Details Correctly.",
     "notAuthorised": "Sorry! you are not Authorised!",
     "notFound": "User not found!",
-    "successfullyRegistered": "Successfully Registered. Please wait until you will be approved."
+    "successfullyRegistered": "Successfully Registered. Please wait until you will be approved.",
+    "login_to_admin_portal": "Admin Portal Login",
+    "OR": "OR"
   },
   "listNavbar": {
     "talawa_portal": "Talawa Admin Portal",
@@ -116,7 +118,8 @@
     "group": "group",
     "noNotifications": "No Notifications",
     "close": "Close",
-    "Export": "Export"
+    "Export": "Export",
+    "Email": "Email"
   },
   "dashboard": {
     "title": "Talawa Dashboard",
@@ -526,6 +529,22 @@
     "blockedUsers": "Blocked Users",
     "searchFirstName": "Enter First Name",
     "searchLastName": "Enter Last Name",
-    "searchEmail": "Enter Email"
+    "searchEmail": "Enter Email",
+    "organizationSidebar": {
+      "viewAll": "View all",
+      "events": "Events",
+      "members": "Members",
+      "noEvents": "No Events to show",
+      "noMembers": "No Members to show"
+    },
+    "postCard": {
+      "likes": "Likes",
+      "comments": "Comments"
+    },
+    "home": {
+      "feed": "Feed",
+      "pinnedPosts": "View Pinned Posts",
+      "somethingOnYourMind": "Something on your mind?"
+    }
   }
 }
